@@ -1,4 +1,4 @@
-# sso-live-coding by Daniel Garnier 
+# sso-live-coding by Daniel Garnier (https://www.youtube.com/watch?v=wP4TVTvYL0Y)
 Live coding SSO
 # Live coding SSO
 
