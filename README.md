@@ -2,7 +2,7 @@
 Live coding SSO
 # Live coding SSO
 
-This repo is a companion for a "live-coding Single Sign On" conference.
+This repo is a companion for a "live-coding Single Sign On" conference by Daniel Garnier.
 
 ## How to run the examples
 
