@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Oauth2 OpenId SSO">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SSO demo</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="card">
+            <div class="header">
+                <h1>SSO demo</h1>
+            </div>
+            <div class="content">
+                <p>You are not authenticated</p>
+            </div>
+            <form action="/login" method="post" class="footer">
+                <h3>Log in with:</h3>
+                <button type="submit">Hardcoded user</button>
+                <a th:href="${loginUri}" class="button">SSO</a>
+            </form>
+        </div>
+        
+    </body>
+
+</html>
